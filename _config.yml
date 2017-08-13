@@ -1,0 +1,134 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+##title: Lemon-XQ # 博客名
+##subtitle: Stay Hungry, Stay Foolish # 副标题
+##description: 银河街角，时光路口 # 站点描述
+##author: Lemon-XQ # 作者名
+##language: zh-Hans # 语言设置
+##timezone: Asia/Shanghai
+title: LuTao
+subtitle: Stay Hungry, Stay Foolish
+description: 银河街角，时光路口
+author: LuTao
+language: zh-Hans
+timezone: Asia/Shanghai
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+##url: http://lemonxq.cn # 博客所要绑定的域名，没有则不填
+url: http://lutao1726.top
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+## Hexo自带代码高亮插件
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+  
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+  
+# Category & Tag
+default_category: uncategorized
+category_map:
+编程: programming
+生活: life
+其他: other
+tag_map:
+    Java: java
+    delphi: delphi
+    js: js
+    css: css
+    html: html
+    tomcat: tomcat
+    dubbo: dubbo
+    zookeeper: zookeeper
+    redis: redis
+    Spring: Spring
+    SpringMVC: SpringMVC
+    Mybatis: Mybatis
+    SpringBoot: SpringBoot
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+## 每页显示文章数
+per_page: 10
+pagination_dir: page
+
+# Extensions
+### 以下为第三方插件设置
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+## 使用的主题，主题配置后面讲
+theme: next
+
+search: # 本地搜索插件
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+feed: # RSS订阅插件
+  type: atom
+  path: atom.xml
+  limit: 0
+
+plugins:
+baidusitemap: # 百度站点地图
+  path: baidusitemap.xml
+sitemap:
+  path: sitemap.xml
+
+
+# Deployment # 非常重要的部署设置
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository: # 可选择同时部署到 GitHub 和 coding 或者只部署到 Github
+    ##git@github.com:你的GitHub名/你的GitHub名.github.io.git
+    github: git@github.com:lutao1726/lutao1726.github.io.git
+    repo: https://git.oschina.net/lutao1726/lutao1726.git
+    coding: https://git.coding.net/lutao1726/lutao1726.git
+  branch: master 
+
+#live2d:
+##  model: wanko
+##  bottom: -30
