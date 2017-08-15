@@ -36,7 +36,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -71,7 +71,7 @@ menu_icons:
   schedule: calendar
   tags: tags
   archives: archive
-  #sitemap: sitemap
+  sitemap: sitemap
   #commonweal: heartbeat
 
 
@@ -358,6 +358,10 @@ jiathis: true
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 #google_site_verification:
+
+# baidu Webmaster tools verification setting
+# See: https://www.baidu.com/webmasters/
+baidu_site_verification: RIZBC3TIHJ
 
 # Google Analytics
 #google_analytics:
