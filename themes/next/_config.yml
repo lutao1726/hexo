@@ -8,8 +8,7 @@ favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
 ## 网站关键词，有利于SEO优化
-keywords: "Hexo, NexT, LuTao, 1726, Blog"
-
+keywords: "Hexo, NexT, LuTao, 1726, Blog, Java, 鲁涛"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
@@ -81,8 +80,8 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-#scheme: Mist
-scheme: Pisces
+scheme: Mist
+#scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -91,7 +90,7 @@ scheme: Pisces
 #friend links
 links_title: 友情链接
 links:
-    涛涛商城: http://lutao1726.top:8082/
+    涛涛商城: http://www.lutao1726.top:8082
     码云: https://git.oschina.net/lutao1726
     博客园: http://www.cnblogs.com/lt1726/
 #http://www.cnblogs.com/lt1726/
