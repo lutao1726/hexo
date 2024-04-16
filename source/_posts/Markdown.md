@@ -5,7 +5,7 @@ categories: hexo教程
 tags: [hexo, markdown]
 
 ---
-![Mou icon](http://ou38qmztk.bkt.clouddn.com/markdown.png)
+![Mou icon](http://codeimages.lutao1726.top/markdown.png)
 
 <!-- more -->
 

@@ -14,12 +14,13 @@ subtitle: Stay Hungry, Stay Foolish
 description: 银河街角，时光路口
 author: LuTao
 language: zh-Hans
+#language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 ##url: http://lemonxq.cn # 博客所要绑定的域名，没有则不填
-url: http://lutao1726.oschina.io
+url: https://lutao1726.top
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :title/
@@ -113,11 +114,16 @@ feed: # RSS订阅插件
   limit: 0
 
 plugins:
+  readmore:
+    blogId: 25071-1608261299158-736
+    name: Java一学习那些事
+#    qrcode: https://blog.lutao1726.top/qrcode_for_gzh.jpg
+    qrcode: https://images.cnblogs.com/cnblogs_com/lt1726/1061777/o_210916011043qrcode_for_gzh.jpg
+    keyword: more
 baidusitemap: # 百度站点地图
   path: baidusitemap.xml
 sitemap:
   path: sitemap.xml
-
 
 # Deployment # 非常重要的部署设置
 ## Docs: https://hexo.io/docs/deployment.html
@@ -126,10 +132,16 @@ deploy:
   repository: # 可选择同时部署到 GitHub 和 coding 或者只部署到 Github
     ##git@github.com:你的GitHub名/你的GitHub名.github.io.git
     github: git@github.com:lutao1726/lutao1726.github.io.git
-    repo: https://git.oschina.net/lutao1726/lutao1726.git
-    coding: https://git.coding.net/lutao1726/lutao1726.git
+    repo: git@gitee.com:lutao1726/lutao1726.git
+    coding: git@e.coding.net:lutao/lutao1726/lutao1726.git
+#    coding: git@e.coding.net:lutao1726/lutao1726/lutao1726.git
+
   branch: master
 
 #live2d:
 ##  model: wanko
 ##  bottom: -30
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+

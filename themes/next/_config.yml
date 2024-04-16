@@ -8,7 +8,8 @@ favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
 ## 网站关键词，有利于SEO优化
-keywords: "Hexo, NexT, LuTao, 1726, Blog, Java, 鲁涛"
+keywords: "Hexo, NexT, LuTao, 1726, Blog"
+
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
@@ -90,9 +91,9 @@ scheme: Mist
 #friend links
 links_title: 友情链接
 links:
-    涛涛商城: http://www.lutao1726.top:8082
+#    涛涛商城: http://lutao1726.top:8082/
     码云: https://git.oschina.net/lutao1726
-    博客园: http://www.cnblogs.com/lt1726/
+    博客园: https://www.cnblogs.com/lt1726/
 #http://www.cnblogs.com/lt1726/
   # 添加你的友情链接（eg. 慕课网: imooc.com）
 # Social Links
@@ -102,7 +103,7 @@ links:
   #LinkLabel: Link
 social: # 添加你的社交账号
     GitHub: https://github.com/lutao1726
-    Weibo: http://weibo.com/2599825050/profile?topnav=1&wvr=6&is_all=1
+    Weibo: https://weibo.com/2599825050/profile?topnav=1&wvr=6&is_all=1
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -221,7 +222,7 @@ alipay: /images/zhifubao.jpg
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -244,7 +245,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night bright
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
@@ -424,9 +425,10 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: SHkEzVF9JLXyG3ViGkb6QF6w-gzGzoHsz
+  app_key: G5mg2sHbwBG7RSr6yXtMevT1
+
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -554,7 +556,6 @@ canvas_ribbon: false
 
 
 
-
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
 # For example
@@ -636,6 +637,8 @@ vendors:
   # Internal version: 3.3.0
   # https://github.com/ethantw/Han
   han:
+
+
 
 
 # Assets

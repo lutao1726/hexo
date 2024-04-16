@@ -84,9 +84,16 @@
 {% if theme.canvas_nest %}
 <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 {% endif %}
+<div id="live2d-widget">
+		<canvas id="live2dcanvas" width="300" height="600" style="position: fixed; opacity: 0.7; left: 0px; bottom: -20px; z-index: 99999; pointer-events: none; border: 1px dashed rgb(204, 204, 204);"></canvas>
+	</div>
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/love.js"></script>
 <script type="text/javascript" src="/js/src/chuncai.js"></script>
+<script type="text/javascript" src="/js/src/L2Dwidget.min.js"></script>
+<script>
+	L2Dwidget.init();
+</script>
     <script type="text/javascript">
         $.chuncai();
     </script>
