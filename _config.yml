@@ -118,7 +118,7 @@ plugins:
     blogId: 25071-1608261299158-736
     name: Java一学习那些事
 #    qrcode: https://blog.lutao1726.top/qrcode_for_gzh.jpg
-    qrcode: https://images.cnblogs.com/cnblogs_com/lt1726/1061777/o_210916011043qrcode_for_gzh.jpg
+    qrcode: https://bizcenter.oss-cn-shenzhen.aliyuncs.com/upload/20240419/3ba8b68c6504ce0e01a03672a62b0d1f.jpg
     keyword: more
 baidusitemap: # 百度站点地图
   path: baidusitemap.xml
@@ -133,7 +133,7 @@ deploy:
     ##git@github.com:你的GitHub名/你的GitHub名.github.io.git
     github: git@github.com:lutao1726/lutao1726.github.io.git
     repo: git@gitee.com:lutao1726/lutao1726.git
-    coding: git@e.coding.net:lutao/lutao1726/lutao1726.git
+#    coding: git@e.coding.net:lutao/lutao1726/lutao1726.git
 #    coding: git@e.coding.net:lutao1726/lutao1726/lutao1726.git
 
   branch: master
